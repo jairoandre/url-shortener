@@ -1,0 +1,10 @@
+POST http://localhost:8080/tiny HTTP/1.1
+content-type: application/json
+
+{
+  "url": "http://twitch.tv/moniquelive"
+}
+
+###
+
+GET http://localhost:8080/r/000GV6j HTTP/1.1
